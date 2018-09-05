@@ -95,7 +95,7 @@ let lis=document.querySelectorAll(".outer");
 
 
 	    //移入图片停止轮播
-	    banner.onmouseenter=function () {
+	    banner.onmouseover=function () {
 	        clearInterval(t);
 	    }
 	    banner.onmouseleave=function () {
@@ -170,6 +170,26 @@ let lis=document.querySelectorAll(".outer");
 
 
 
+//家电 选项卡
+    let zi = document.querySelectorAll("span1");
+    let tu = document.querySelectorAll(".kuai ul");
+    // console.log(zi, tu);
+    zi[0].classList.add("one");
+    tu[0].style.display="flex";
+    // console.log(tu);
+    for (let i = 0; i < zi.length; i++) {
+        zi[i].onmouseover = function () {
+            for (let j = 0; j < zi.length; j++) {
+                zi[j].classList.remove("one");
+                tu[j].style.display = "none";
+            }
+            zi[i].classList.add("one");
+            tu[i].style.display = "flex";
+
+        }
+    }
+
+
 
 
 
@@ -220,8 +240,17 @@ let lis=document.querySelectorAll(".outer");
     contentBn(imgs4,point4,leftbtn4,rightbtn4,widths4);
 
 
-    
 
+    //返回顶部
+    window.onscroll=function () {
+        let bh = document.body.scrollTop || document.documentElement.scrollTop;
+        let back = document.querySelectorAll(".back")[0];
+        let wh=window.innerHeight;
+        back.onclick = function () {
+            animate(document.body, {scrollTop: 0}, 600);
+            animate(document.documentElement, {scrollTop: 0}, 600);
+        }
+    }
 
 }
 

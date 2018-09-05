@@ -474,7 +474,7 @@ i{
 	margin: 0 1px;
 	border-radius: 50%;
 	margin: 0 5px 0;
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 	background: rgba(0,0,0,0.4);
 	border-color: rgba(255, 255, 255, 0.3);
 	cursor: pointer;
@@ -741,8 +741,8 @@ i{
 .flash .box-hd .control button{
 	display: block;
 	width: 36px;
-	height: 24px;
-	background-color: #f5f5f5;
+	height: 26px;
+	background-color: #fff;
 	border: 1px solid #e0e0e0;
 	padding: 3px 5px;
 	float: left;
@@ -750,7 +750,7 @@ i{
 	text-align: center;
 	line-height: 16px;
 	margin-left: -1px;
-	color: #ccc;
+	color: #b0b0b0;
 	font-weight: bold;
 	cursor: pointer;
 	outline: none;
@@ -771,7 +771,7 @@ i{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
+	margin-right: 15px;
 }
 .flash .rush img{
 	margin: 25px auto;
@@ -823,12 +823,37 @@ i{
 	width:234px;
 	height: 340px;
 	background-color: #fafafa;
-    margin-left: 15px;
+    margin-right: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
+}
+.flash .box ul li:nth-child(1){
+	border-top:1px solid #FFAC13;
+}
+.flash .box ul li:nth-child(2){
+	border-top:1px solid #83C44E;
+}
+.flash .box ul li:nth-child(3){
+	border-top:1px solid #2196F3;
+}
+.flash .box ul li:nth-child(4){
+	border-top:1px solid #E53935;
+	margin-right: 0;
+}
+.flash .box ul li:nth-child(5){
+	border-top:1px solid #FFAC13;
+}
+.flash .box ul li:nth-child(6){
+	border-top:1px solid #83C44E;
+}
+.flash .box ul li:nth-child(7){
+	border-top:1px solid #2196F3;
+}
+.flash .box ul li:nth-child(8){
+	border-top:1px solid #E53935;
 }
 .flash .box ul li .zhekou{
 	width:60px;
@@ -866,7 +891,7 @@ i{
 
 }
 .flash .box ul li .price del{
-	font-size: 14px;
+	font-size: 12px;
 	color: #b0b0b0;
 }
 
@@ -911,7 +936,7 @@ i{
 }
 .center .phone .title h2{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 400;
 	color: #333;
 }
 .center .phone .title .more{
@@ -1002,222 +1027,275 @@ i{
 /* 广告-2结束 */
 
 /* 家电板块开始 */
-.center .homeelec{
+.house{
 	width: 100%;
-	height: 686px;
-	/* background: red; */
+	height: 720px;
+	background: #F5F5F5;
+	margin: 0;
 }
-.center .homeelec .title{
-	width: 100%;
-	height: 58px;
-	line-height: 58px;
+.house .container{
+	width: 1240px;
+	height: 100%;
+	margin: 0 auto;
 	position: relative;
 }
-.center .homeelec .title h2{
+.house .container .top {
+	 height: 80px;
+	 background: #F5F5F5;
+ }
+.house .container .top h2{
 	font-size: 22px;
-	font-weight: 200;
-	color: #333;
+	font-weight: 400;
+	color: #333333;
+	line-height: 80px;
+	float: left;
 }
-.center .homeelec .title .more{
-	position: absolute;
-	top: 15px;
-	right: 0;
-	/* height: 28px; */
-}
-.center .homeelec .title .more ul{
-	/* color: #333; */
+.house .container .top-right{
 	font-size: 16px;
-}
-.center .homeelec .title .more ul li{
+	font-weight: normal;
+	line-height: 58px;
 	float: right;
-	margin-left: 30px;
-	line-height: 26px;
+}
+.house .container .top-right .title span1{
+	color: #49494C;
+	padding-bottom: 4px;
+	font-size: 16px;
+	margin-right: 22px;
 	cursor: pointer;
 }
-.center .homeelec .title .more ul li:hover{
+.house .container .top-right .title .active{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
-.center .homeelec .title .more ul li:nth-child(4){
+.house .container .top-right .title .one{
 	color: #ff6700;
 	border-bottom: 2px solid #ff6700;
 }
-.center .homeelec .span li{
-	width: 234px;
-	height: 300px;
-	margin: 0 14px 14px 0;
-	padding: 34px 0 20px;
-	background: #fff;
-	float: left;
-	position: relative;	
-	transition: all .5s;
-	overflow: hidden;
 
+/* 家电内容开始 */
+.house .left{
+	width: 242px;
+	height: 620px;
+	position: absolute;
+	left: 0;
+	top: 80px;
 }
-.center .homeelec .span li:hover{
-	box-shadow: 0 15px 40px 2px rgb(0,0,0,0.1);
+.house .left .up{
+	width: 232px;
+	height: 300px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	transition: all .2s;
+	transition-timing-function: linear;
+	background-image: url('../img/house up.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.house .left .up:hover{
+	transform: translateY(-4px);
+	box-shadow: 0  12px 30px rgba(0, 0, 0, 0.2);
+}
+.house .left .down{
+	width: 232px;
+	height: 300px;
+	margin-right: 20px;
+	transition: all .2s;
+	transition-timing-function: linear;
+	background-image: url('../img/house down.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.house .left .down:hover{
+	transform: translateY(-4px);
+	box-shadow: 0  12px 30px rgba(0, 0, 0, 0.2);
+}
+.house .right{
+	width: 992px;
+	height: 620px;
+	position: absolute;
+	right: 0;
+	top: 80px;
+}
+
+.house .right .kuai{
+	width: 992px;
+	height: 614px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	/*display: none;*/
+}
+.house .right ul{
+	width: 992px;
+	height: 614px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.house ul li{
+	weight:234px;
+	height: 300px;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 14px;
+	position: relative;
+    transition: all .5s;
+	/* 	margin-bottom: 0;
+        margin-right: 0; */
+}
+.house ul li:hover{
+	box-shadow: 0 15px 40px 2px rgba(0,0,0,0.1);
 	transform: translateY(-5px);
 }
-.center .homeelec .span li:nth-child(5){
+.house ul li:nth-child(4){
 	margin-right: 0;
 }
-.center .homeelec .span li:nth-child(10){
+.house ul li:nth-child(8){
+	height: 140px;
 	margin-right: 0;
-	height: 143px;
+	margin-bottom: 20px;
 }
-.center .homeelec .span li:nth-child(11){
+.house ul li:nth-child(9){
+	height: 140px;
 	margin-right: 0;
-	height: 143px;
 }
-.center .homeelec .span li:nth-child(1){
-	padding: 0;
+.house ul li img{
+	width: 160px;
+	height: 160px;
+	margin-top: 30px;
+	margin-left: 36px;
 }
-.center .homeelec .span li:nth-child(6){
-	padding: 0;
-}
-.center .homeelec .span .flag{
-	background: #e53935;
+.house ul li .red{
+	width:65px;
+	height: 20px;
+	background-color: #E53935;
+	color: #fff;
+	font-size: 12px;
 	position: absolute;
 	top: 0;
 	left: 85px;
-	width: 64px;
-	height: 20px;
-	font-size: 12px;
-	color: #fff;
 	text-align: center;
 	line-height: 20px;
 }
-.center .homeelec .span li img{
-	width: 150px;
-	height: 150px;
-	margin: 0 42px 18px;
-}
-.center .homeelec .span li .pic{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-.center .homeelec .span li h3{
+.house ul li p{
 	font-size: 14px;
-	color: #333;
+	text-align: center;
+	margin-top: 20px;
+}
+.house ul li h5{
+	font-size: 12px;
+	text-align: center;
 	font-weight: 400;
-	text-align: center;
-	margin: 0 10px;
-}
-.center .homeelec .span li p{
 	color: #b0b0b0;
+	margin-top: 5px;
+    margin-bottom: 10px;
+}
+.house ul li span{
+	margin-left: 65px;
+}
+.house ul li span i{
+	font-size: 14px;
+	text-align: center;
+	color: orangered;
+	margin-right: 10px;
+}
+.house ul li span del{
 	font-size: 12px;
-	height: 18px;
 	text-align: center;
-	margin: 0 10px 10px;
-}
-.center .homeelec .span li .price{
-	text-align: center;
-	margin: 0 10px 10px;
-	color: #ff6700;
-}
-.center .homeelec .span li p del{
 	color: #b0b0b0;
 }
-.center .homeelec .span .flag1{
-	position: absolute;
-	top: 0;
-	left: 85px;
-	width: 64px;
-	height: 20px;
-	font-size: 12px;
-	color: #fff;
-	text-align: center;
-	line-height: 20px;
-	background: #83c44e;
-}
-.center .homeelec .span li .orange-box{
+.house .gengduo li{
 	width: 234px;
-	height: 76px;
-	background: #ff6700;
-	margin-top: 29px;
-	transition: all .8s;
-	font-size: 12px;
+	height: 142px;
 }
-.center .homeelec .span li:hover .orange-box{
-	transform: translateY(-76px);
-}
-.center .homeelec .span li .orange-box a{
-	display: block;
-	color: #fff;
-	padding: 8px 30px;
-}
-.center .homeelec .span li .orange-box a .evaluate{
-	display: block;
-	margin-bottom: 5px;
-
-}
-.center .homeelec .span li .orange-box a .user{
-	color: rgba(255,255,255,0.6);
-}
-.center .homeelec .span .water{
-	padding-top: 50px;
-	position: relative;
-}
-.center .homeelec .span .water h3{
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-.center .homeelec .span .water .picture{
-	position: absolute;
-	right: 20px;
-	top: 32px;
-	width: 80px;
-	height: 80px;
-	background: yellow;
-}
-.center .homeelec .span .water .picture img{
-	width: 80px;
-	height: 80px;
-	margin: 0;
-}
-.center .homeelec .span .water h3{
-	color: #333;
-	margin: -10px 110px 5px 30px;
-    font-size: 14px;
-    font-weight: 400;
-    overflow: hidden;
-}
-.center .homeelec .span .water p{
-	margin: 0 110px 0 30px;
-	font-size: 12px;
-    color: #ff6700;
-}
-.center .homeelec .span .more{
-	position: relative;
-	padding-top: 50px;
-}
-.center .homeelec .span .more .right{
-	width: 48px;
-	height: 48px;
-	position: absolute;
-	top: 48px;
-	right: 35px;
-
-}
-.center .homeelec .span .more .right img{
-	width: 100%;
-	height: 100%;
-	margin: 0;
-}
-
-.center .homeelec .span .more h3{
-	margin: 0 110px 0 30px;
-	font-size: 18px;
-	color: #333;
-}
-.center .homeelec .span .more small{
-	font-size: 12px;
+.house .gengduo h5{
 	color: #757575;
-	margin: 0 110px 0 40px;
 }
+
+/* 隐藏橙色框 */
+.house ul li .orange{
+	width: 232px;
+	height: 76px;
+	background-color: #FF6700;
+	margin-top: 56px;
+	transition: transform .2s;
+	transition-timing-function: linear;
+	overflow: hidden;
+}
+.house ul li:hover .orange{
+	transform: translateY(-100px);
+}
+
+.house ul li .orange h1{
+	margin-left: 30px;
+	width: 180px;
+	font-weight: normal;
+	font-size: 12px;
+	color: white;
+	padding-top: 10px;
+}
+.house ul li .orange h2{
+	margin-left: 30px;
+	width: 180px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #FFBE93;
+	margin-top: 8px;
+}
+/* 隐藏橙色框 结束 */
+
+/* 家电 1.6  10.11特殊大小盒子 */
+.house .gengduo li p a{
+	color:#000;
+}
+.house ul li .img1{
+	width: 160px;
+	height: 160px;
+	margin-top: 6px;
+	margin-left: 36px;
+}
+.house ul li .img10{
+	width: 50px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 2px;
+}
+.house ul li .img20{
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left: 2px;
+}
+.house .small{
+	width: 128px;
+	height: 135px;
+	float: left;
+	text-align: center;
+}
+.house .p-small{
+	margin-top: 40px;
+}
+/* 浏览更多 */
+.house .p2-small{
+	font-size: 19px;
+	margin-top: 40px;
+}
+.house .i-small{
+	margin-left: 24px;
+	float: left;
+}
+/* 热门 */
+.house .h5-small{
+	margin-left: 26px;
+	float: left;
+	font-size: 12px;
+}
+
 /* 家电板块结束 */
 
 /* 为你推荐开始 */
@@ -1231,7 +1309,7 @@ i{
 }
 .center .recommend .box-hd h2{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 400;
 	line-height: 58px;
 	color: #333;
 	float: left;
@@ -1249,7 +1327,7 @@ i{
 .center .recommend .box-hd .control button1{
 	display: block;
 	width: 36px;
-	height: 24px;
+	height: 26px;
 	border: 1px solid #e0e0e0;
 	padding: 3px 5px;
 	float: left;
@@ -1257,7 +1335,7 @@ i{
 	text-align: center;
 	line-height: 16px;
 	margin-left: -1px;
-	color: #ccc;
+	color: #b0b0b0;
 	font-weight: bold;
 	background-color: #f5f5f5;
 	outline: none;
@@ -1287,7 +1365,7 @@ i{
 	transition: all .5s;
 }
 .center .recommend ul li:hover{
-	box-shadow: 0 15px 40px 2px rgb(0,0,0,0.1);
+	box-shadow: 0 15px 40px 2px rgba(0,0,0,0.1);
 	transform: translateY(-5px);
 }
 .center .recommend ul li:nth-child(5){
@@ -1336,7 +1414,7 @@ i{
 }
 .center .hot .box-hd h2{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 400;
 	color: #333;
 	line-height: 58px;
 }
@@ -1405,7 +1483,7 @@ i{
 }
 .content .box-hd h2{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 400;
 	color: #333;
 	line-height: 58px;
 }
@@ -1496,8 +1574,8 @@ i{
 	left: 0;
 }
 .center .content .box .list ul li{
-	width: 13px;
-	height: 13px;
+	width: 10px;
+	height: 10px;
 	margin: 10px 12px;
 	border-radius: 50%;
 	background: #b0b0b0;
@@ -1572,7 +1650,7 @@ i{
 }
 .center .video .title h2{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 400;
 	color: #333;
 }
 .center .video .title .more{
@@ -1853,7 +1931,7 @@ i{
 	background: #fff;
 	margin-bottom: 14px;
 }
- .sidebar a{
+ .sidebar .back{
  	display: block;
 	width: 27px;
 	height: 41px;
@@ -1862,10 +1940,12 @@ i{
 	border: 1px solid #f5f5f5;
 	text-align: center;
 	padding-top: 6px;
+	 cursor: pointer;
 }
 .sidebar .top ul
 {
 	border-top: 1px solid #f5f5f5;
+	cursor: pointer;
 }
 .sidebar .top ul li{
 	width: 27px;
@@ -1876,11 +1956,11 @@ i{
 	text-align: center;
 	line-height: 40px;
 }
-.sidebar a i.icon-huidingbu{
+.sidebar .back i.icon-huidingbu{
 	color: #B2B2B2;
 	font-size: 22px;
 }
-.sidebar a:hover i.icon-huidingbu{
+.sidebar .back:hover i.icon-huidingbu{
 	color: #ff6700;
 }
 .sidebar .top ul li i.icon-yonghu{
@@ -1904,4 +1984,5 @@ i{
 .sidebar .top ul li:hover i.icon-shop{
 	color: #ff6700;
 }
+
 /* 侧边栏结束 */
