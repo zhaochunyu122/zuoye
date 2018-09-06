@@ -16,20 +16,20 @@ let lis=document.querySelectorAll(".outer");
 	}
 
 	// 导航下拉菜单
-	let text=document.querySelectorAll(".hd-text");
-	let menu=document.querySelectorAll(".navmenu");
-	// console.log(menu);
-	for(let x=0;x<text.length;x++){
-		text[x].onmouseenter=function(){
-			for(let y=0;y<menu.length;y++){
-				menu[y].style.display="none";
-			}
-		menu[x].style.display="block";
-		}
-		text[x].onmouseleave=function(){
-			menu[x].style.display="none";
-		}
-	}
+    let text=document.querySelectorAll(".hd-text");
+    let menu=document.querySelectorAll(".navmenu");
+    // console.log(menu);
+    for(let x=0;x<text.length;x++){
+        text[x].onmouseenter=function(){
+            for(let y=0;y<menu.length;y++){
+                menu[y].style.display="none";
+            }
+            menu[x].style.display="block";
+        }
+        text[x].onmouseleave=function(){
+            menu[x].style.display="none";
+        }
+    }
 
 
 
