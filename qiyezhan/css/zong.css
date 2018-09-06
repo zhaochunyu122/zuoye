@@ -1,0 +1,19 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 12:29:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-08 12:30:17
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}

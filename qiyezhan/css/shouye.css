@@ -1,0 +1,437 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-23 08:34:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 17:05:47
+*/
+/* 顶部开始 */
+header{
+	z-index: 99;
+	width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+header img{
+	width: 150px;
+	height: 50px;
+}
+header .nav ul{
+	width: 550px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+header .nav ul li{
+	height: 60px;
+	line-height: 60px;
+}
+header .nav ul li:nth-child(1) a{
+	color: #62a8ea;
+}
+header .nav ul li:nth-child(4){
+	position: relative;
+}
+header .nav ul li:nth-child(4):hover .xialacaidan{
+	display: block;
+	color: #000;
+}
+header .nav ul li a{
+   color: #000;
+   text-decoration: none;
+}
+header .nav ul li  a:hover{
+	color: #62a8ea;
+}
+header .xialacaidan {
+	width: 200px;
+	height: 100px;
+	margin: 0;
+	font-size: 14px;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	display: none;	
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+}
+header .xialacaidan h2{
+	font-size: 14px;
+	text-align: center;
+
+}
+header .xialacaidan a{
+	color: #000;
+	text-decoration: none;
+	margin-top: 10px;
+}
+header .xialacaidan a:hover{
+	color: #62a8ea;
+}
+header .nav ul li :nth-child(4) :hover .xialacaidan{
+    display: block;
+}
+/* 顶部结束 */
+
+
+
+/* 轮播图开始 */
+.banner{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.banner .pic{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding-top: 56%;
+	position: relative;
+}
+.banner .pic img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top:0;
+	left:100%;
+}
+.banner .dot{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+}
+.banner .dot i{
+	font-size: 24px;
+	color: #8c8c8c;
+}
+.banner .dot .active{
+	color:#a6e1ec;
+}
+.banner .fanye {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 45%;
+	left: 0;
+}
+.banner .fanye i{
+	font-size: 40px;
+	color: #8c8c8c;
+	display: none;
+	cursor: pointer;
+}
+.banner:hover .fanye i{
+	display: block;
+}
+/* 轮播图结束 */
+
+
+
+/* 完美花艺开始 */
+.huayi{
+	margin-top: 60px;
+}
+.huayi h3{
+	font-size: 36px;
+	color: #2a333c;
+	text-align: center;
+}
+.huayi p{
+	font-size: 16px;
+	color: #2a333c;
+	text-align: center;
+}
+.huayi ul {
+    margin-top: 50px;
+}
+.huayi ul li{
+	box-shadow: 0 1px 0.1px 0.05px rgba(210, 210, 210, 0.2);
+	margin-bottom: 10px;
+}
+.huayi ul li img{
+	width: 100%;
+}
+.huayi ul li p{
+	color: #2a333c;
+	text-align: center;
+	margin-top: 10px;
+}
+.huayi ul li p:hover{
+	color: #62a8ea;
+}
+/* 完美花艺结束 */
+
+
+
+/* 婚礼策划开始 */
+.hunli{
+	margin: 30px 0;
+}
+.hunli h3{
+	font-size: 36px;
+	color: #2a333c;
+	text-align: center;
+}
+.hunli p{
+	font-size: 16px;
+	color: #2a333c;
+	text-align: center;
+}
+.hunli ul{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.hunli ul li{   
+	display: flex;
+	flex-direction: column;
+}
+
+.hunli ul li img{
+	width: 236px;
+}
+.hunli ul li h5{
+	font-size:16px;
+	line-height: 46px;
+	height: 46px; 
+	color: #2a333c;
+}
+.hunli ul li p{
+	font-size: 14px;
+	height: 50px;
+	line-height: 24px;
+	margin-top: 10px;
+	overflow: hidden;
+    text-align: left;
+}
+.hunli ul a{
+	text-decoration: none;
+}
+.hunli ul a:hover h5{
+    color:#62a8ea; 
+}
+/* 婚礼策划结束 */
+
+
+
+/* 花讯开始 */
+.huaxun a{
+	text-decoration: none;
+}
+.huaxun{
+	margin: 50px 0;
+}
+.huaxun h3{
+	font-size: 36px;
+	color: #2a333c;
+	text-align: center;
+}
+.huaxun p{
+	font-size: 16px;
+	color: #2a333c;
+	text-align: center;
+	padding: 0 10%;
+}
+.huaxun ul{
+	margin-top: 40px;
+}
+.huaxun ul li{
+	padding:15px;
+	margin-bottom: 15px;
+}
+.huaxun ul li .left{
+	float: left;
+	margin-right: 10px;
+}
+.huaxun ul li .left img{
+	width: 160px;
+}
+.huaxun ul li .right{
+	display: flex;
+	flex-direction: column;
+}
+.huaxun ul li .right h6{
+	color: #000;
+	font-size: 20px;
+	text-align: left;
+}
+.huaxun ul li .right h6:hover{
+	color: #62a8ea;
+}
+.huaxun ul li .right p1{
+	color: #76838f;
+	font-size: 14px;
+	text-align: left;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.huaxun ul li .right .pingjia{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.huaxun ul li .right p2{
+	color: #76838f;
+	font-size: 14px;
+}
+.huaxun ul li .right .pingjia .iconfont{
+	color: #76838f;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.huaxun .btn{
+	width: 150px;
+	height: 40px;
+	background-color: #fff;
+	border-color: #000;
+	margin-left: 40%;
+}
+.huaxun .btn:hover{
+   background-color:#16b0dc ;
+   border-color:#16b0dc; 
+}
+/* 花讯结束 */
+
+
+
+/* 介绍开始 */
+.jieshao{
+	margin-top: 140px;
+	width: 100%;
+	border-bottom: 1px solid #F0F2F5;
+}
+.jieshao p{
+	font-size: 16px;
+	color: #000;
+	width: 100%;
+}
+.jieshao img{
+	width: 100%;
+}
+/* 介绍结束 */
+
+
+
+/* 底部开始 */
+footer {
+	margin-top: 90px;
+}
+footer .top p{
+    font-size: 18px; 
+    text-align: center;
+   
+}
+footer .top a{
+	font-size: 16px;
+	color: #76838f;
+	text-decoration: none;
+}
+footer .top a:hover{
+	color: #16b0dc;
+}
+footer .center{
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	border-top: 1px solid #F0F2F5;
+	border-bottom: 1px solid #F0F2F5;
+	padding: 50px 0 20px 0;
+}
+footer .center .word a{
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+}
+footer .center .word a:hover{
+	color:  #16b0dc;
+}
+footer .center .tubiao .iconfont{
+	font-size: 30px;
+}
+footer .center .tubiao{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+footer .center .tubiao a{
+	text-decoration: none;
+}
+footer .center .tubiao .icon-weixin{
+	color: #83B944;
+}
+footer .center .tubiao .icon-qq{
+	color: #16B0DC;
+}
+footer .center .tubiao .icon-weibo{
+	color: #FA8686;
+}
+footer .bottom{
+	margin-top: 30px;
+}
+
+/* 底部结束 */
+
+@media  screen and (max-width: 1200px){
+	.hunli ul li img{
+    	width: 155px;
+    }
+
+}
+@media  screen and (max-width: 992px) {
+	/*.banner .pic{*/
+		/*height: 490px;*/
+	/*}*/
+	.hunli ul li img {
+		width: 267px;
+	}
+
+	@media screen and (max-width: 768px) {
+		/*.banner .pic{*/
+			/*height: 340px;*/
+		/*}*/
+		.hunli ul li img {
+			width: 530px;
+		}
+
+		.hunli ul li:nth-child(1) {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.huaxun ul li {
+			width: 100%;
+		}
+
+		footer .center {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

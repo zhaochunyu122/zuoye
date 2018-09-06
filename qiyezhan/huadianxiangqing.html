@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>米勒之恋</title>
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_809259_082p9mjlghj2.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/zong.css">
+</head>
+<style>
+	/* 顶部开始 */
+header{
+	z-index: 99;
+	width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+header img{
+	width: 150px;
+	height: 50px;
+}
+header .nav ul{
+	width: 550px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+header .nav ul li{
+	height: 60px;
+	line-height: 60px;
+}
+header .nav ul li:nth-child(2) a{
+	color: #62a8ea;
+}
+header .nav ul li:nth-child(4){
+	position: relative;
+}
+header .nav ul li:nth-child(4):hover .xialacaidan{
+	display: block;
+	color: #000;
+}
+header .nav ul li a{
+   color: #000;
+   text-decoration: none;
+}
+header .nav ul li  a:hover{
+	color: #62a8ea;
+}
+header .xialacaidan {
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+	margin: 0;
+	font-size: 14px;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 60px;
+	right: 0;
+	display: none;	
+}
+header .xialacaidan a{
+	display: block;
+	color: #000;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+}
+header .xialacaidan a:hover{
+	color: #62a8ea;
+}
+header .nav ul li :nth-child(4) :hover .xialacaidan{
+    display: block;
+}
+
+
+
+
+main .container{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main .top{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main .pic1{
+	width: 400px;
+	height:400px;
+	
+}
+main .pic2{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+
+/* 底部开始 */
+footer {
+	margin-top: 90px;
+}
+footer .center{
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-start;
+	border-top: 1px solid #F0F2F5;
+	border-bottom: 1px solid #F0F2F5;
+	padding: 50px 0 20px 0;
+}
+footer .center .word a{
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+}
+footer .center .word a:hover{
+	color:  #16b0dc;
+}
+footer .center .tubiao .iconfont{
+	font-size: 30px;
+}
+footer .center .tubiao{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+footer .center .tubiao a{
+	text-decoration: none;
+}
+footer .center .tubiao .icon-weixin{
+	color: #83B944;
+}
+footer .center .tubiao .icon-qq{
+	color: #16B0DC;
+}
+footer .center .tubiao .icon-weibo{
+	color: #FA8686;
+}
+footer .bottom{
+	margin-top: 30px;
+}
+
+/* 底部结束 */
+
+
+@media  screen and (max-width: 768px) {
+    footer .center{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+}
+/* 顶部结束 */
+</style>
+<body>
+	<!-- 顶部开始 -->
+	<header>
+	  <div class="box">
+		<a href="shouye.html"><img src="img/shouye/logo.png" alt=""></a>
+		<i class="iconfont icon-liebiao visible-xs-* hidden-sm hidden-md hidden-lg"></i>
+	  </div>
+		<div class="nav">
+			<ul class="hidden-xs">
+				<li class="hidden-xs"><a href="shouye.html">首页</a></li>
+				<li class="hidden-xs"><a href="huadian.html">花店</a></li>
+				<li class="hidden-xs"><a href="hunli.html">婚礼</a></li>
+				<li class="hidden-xs">
+				  <a href="">服务▼
+				    <div class="xialacaidan">
+				    	<h2><a href="huahuisheji.html">花卉设计</a></h2>
+				    	<h2><a href="huodongcehua.html">活动策划</a></h2>
+			        </div>
+			      </a>
+			    </li>
+				<li class="hidden-xs"><a href="guanyu.html">关于</a></li>
+				<li class="hidden-xs"><a href="lianxi.html">联系</a></li>
+			</ul>
+            
+		</div>
+	</header>
+<!-- 顶部结束 -->
+
+
+
+
+<main>
+  <div class="title">
+	<h2 style="margin-top: 60px;text-align: center">花店</h2>
+  </div>
+  <div class="box" style="width: 100%;height:50px;background: #f5f5f5;margin-top: 30px;padding-left: 100px;">
+  		<p style="font-size: 20px;line-height: 50px;">米勒之恋</p>
+  </div>
+  <div class="container">
+    <div class="top">
+	  <img src="img/huadianxiangqing1/1.jpg" alt="" class="pic1">
+	  <p style="font-size: 22px;margin-top: 30px;">粉红色的玫瑰,艳红色的玫瑰和粉红色的Astilbee，以及清风飞扬的米勒、黄绿色绣球花相应有趣。</p>
+	</div>
+	<div class="bottom">
+	  <img src="img/huadianxiangqing1/1.jpg" alt="" class="pic2">
+	  <img src="img/huadianxiangqing1/2.jpg" alt="" class="pic2">
+	</div>
+  </div>
+</main>
+
+
+
+
+
+
+<!-- 底部开始 -->
+     <footer>
+       <div class="container">
+     	<div class="center">
+     		<div class="word col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1">
+     			<a href="huadian.html"><p class="col-xs-6 col-sm-3">花店</p></a>
+     			<a href="hunli.html"><p class="col-xs-6 col-sm-3">婚礼</p></a>
+     			<a href="guanyu.html"><p class="col-xs-6 col-sm-3">关于</p></a>
+     			<a href="lianxi.html"><p class="col-xs-6 col-sm-3">联系</p></a>
+     		</div>
+     		<div class="tubiao">
+     			<a href=""><div class="iconfont icon-weixin  col-xs-4"></div></a>
+     			<a href=""><div class="iconfont icon-qq col-xs-4"></div></a>
+     			<a href=""><div class="iconfont icon-weibo col-xs-4"></div></a>
+     		</div>
+     	</div>
+     	<div class="bottom">
+		    <p style="text-align: center;">我的网站 版权所有 2008-2014 湘ICP备8888888</p>
+		    <p style="text-align: center;">本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+			<div class="powered_by_metinfo" style="text-align: center;">
+			   Powered by <b><a href="http://www.metinfo.cn" target="_blank">MetInfo 6.1.0</a></b> ©2008-2018 &nbsp;<a href="http://www.metinfo.cn" target="_blank">MetInfo Inc.</a>		
+			</div>
+		    <ul class="met-langlist p-0">
+		    		    	    </ul>
+	</div>
+       </div>
+     </footer>
+<!-- 底部结束 -->
+</body>
+</html>
