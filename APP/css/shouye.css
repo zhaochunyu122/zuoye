@@ -1,0 +1,306 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 10:13:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 16:33:20
+*/
+
+/* 顶部开始 */
+a{
+	color: #000;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #fe0000;
+	
+}
+header p{
+	float: left;
+	color: #fff;
+	font-size: 0.32rem;
+	line-height: 0.88rem;
+	margin-left: 0.3rem;
+}
+header input{
+	float: left;
+	width: 5rem;
+	height: 0.4rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	border: none;
+	margin-left: 0.25rem;
+	margin-top: 0.25rem;
+	position: relative;
+}
+input::-webkit-input-placeholder{
+	color: #c8c8c8;
+	font-size: 0.12rem;
+	padding-left: 0.1rem;
+}
+header .icon-sousuo1{
+	color: #c8c8c8;
+	font-size: 0.16rem;
+	position: absolute;
+	left:5.7rem;
+	top: 0.33rem;
+}
+header .icon-saoma{
+	float: right;
+	color: #fff;
+	font-size: 0.36rem;
+	margin-right: 0.3rem;
+	margin-top: 0.25rem; 
+}
+/* 顶部结束 */
+/* 轮播图开始 */
+.swiper-container{
+	width: 100%;
+	height: 2.9rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+	width: 100%;
+}
+/* 轮播图结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+	padding: 0 0.24rem;
+	margin-top: 0.3rem;
+}
+nav ul{
+	display: flex;
+	flex-wrap:wrap; 
+    justify-content: center;
+}
+nav ul li{
+	background-color: #fff;
+	width: 1rem;
+	height: 1.3rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.15rem;
+    position: relative;
+}
+nav ul li:nth-child(4){
+	margin-right: 0;
+}
+nav ul li:nth-child(8){
+	margin-right: 0;
+}
+nav ul li img{
+	width: 0.9rem;
+	height: 0.93rem;
+	position: absolute;
+	left: 0.05rem;
+	top: 0;
+}
+nav ul li p{
+	color: #666363;
+	font-size: 0.14rem;
+	margin-top:0;
+	position: absolute;
+	right: 0.25rem;
+	bottom: 0;
+}
+/* 导航结束 */
+/* 品质优选开始 */
+.qua{
+	padding-left: 12px;
+}
+.qua .title{
+	width: 2.85rem;
+	height: 0.65rem;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 0.4rem;
+	position: relative;
+}
+.qua .title h3{
+	font-size: 0.24rem;
+	text-align: center;
+	color: #5a5858;
+}
+.qua .title h4{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #370404;
+	font-weight: 900;
+}
+.quapic{
+	width: 7rem;
+	height: 3rem;
+}
+/* 品质优选结束 */
+/* 推荐商家开始 */
+.rec .title{
+	width: 4.5rem;
+	height: 0.65rem;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 0.4rem;
+}
+.rec .title h3{
+	font-size: 0.24rem;
+	text-align: center;
+	color: #5a5858;
+}
+.rec .title h4{
+	font-size: 0.22rem;
+	text-align: center;
+	color: #370404;
+	font-weight: 900;
+}
+.rec .top{
+	width: 6rem;
+	height: 0.6rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap:wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.rec .top .box1{
+	width: 1.2rem;
+	height: 0.35rem;
+	background: #fff;
+	border: 0.02rem solid #ef0000;
+	border-radius: 0.2rem;
+}
+.rec .top .box1 p{
+	font-size: 0.12rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.rec .bottom{
+	width: 100%;
+	height: 7.7rem;
+	padding: 0 0.24rem;
+	margin-bottom: 1rem;
+}
+.rec .bottom ul{
+    width: 100%;
+    height: 7.7rem;
+    background: #fff;
+    display: flex;
+	flex-wrap:wrap; 
+    justify-content: space-between;
+    align-items: center;
+}
+.rec .bottom ul li{
+	width: 100%;
+	height: 1.55rem;
+	background-color: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    justify-content: space-around;
+    box-shadow: 0 0.05rem 0.1rem 0.05rem rgba(254, 1, 1, 0.2);
+}
+.rec .bottom ul li .left img{
+	width: 1.55rem;
+	height: 1.55rem;
+}
+.rec .bottom ul li .center{
+	width: 3.5rem;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: column;
+}
+.rec .bottom ul li .center .box1{
+	border-bottom: 0.02rem dotted #a2a9a0;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    margin-bottom:  0.1rem;
+}
+.rec .bottom ul li .center .box2{
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    margin-top: 0.1rem;
+}
+.rec .bottom ul li .center .box2 img{
+	width: 0.25rem;
+	height: 0.25rem;
+	margin-top: 0.05rem;
+	margin-right: 0.2rem;
+}
+.rec .bottom ul li .center h6{
+	font-size: 0.36rem;
+}
+.rec .bottom ul li .center p1{
+	font-size: 0.16rem;
+}
+.rec .bottom ul li .center p2{
+	font-size: 0.16rem;
+}
+.rec .bottom ul li .center span{
+	font-size: 0.28rem;
+	color: #ffff00;
+}
+.rec .bottom ul li .right{
+	width: 1rem;
+	height: 100%;
+	background: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rec .bottom ul li .right img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.8rem;
+}
+.rec .bottom ul li .right p{
+	color: #000;
+	font-size: 0.22rem;
+	font-weight: 900;
+	margin-top: -0.3rem;
+}
+/* 推荐商家结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	box-shadow:0 -0.1rem 0.1rem 0.05rem rgba(254, 1, 1, 0.2); 
+	background: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .box{
+	background: #fff;
+	width: 0.7rem;
+	height: 0.9rem;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .iconfont{
+	font-size: 0.4rem;
+	color: #515151;
+}
+footer .icon-index{
+	color: #ef0000;
+}
+footer p{
+	font-size: 0.22rem;
+	color: #000;
+	margin-top: -0.2rem;
+}
+/* 底部结束 */

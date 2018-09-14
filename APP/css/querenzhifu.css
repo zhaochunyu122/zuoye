@@ -1,0 +1,115 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-13 22:37:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 18:19:51
+*/
+body{
+	background-image: url('../img/querenzhifu/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fanhui{
+	width: 0.6rem;
+	height: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.box{
+	width: 6rem;
+	height: 6rem;
+	background: #fe0000;
+	border-radius: 0.3rem;
+	margin: 0 auto;
+	margin-top: 3.75rem;
+}
+.box img{
+	width: 100%;
+	height: 3.25rem;
+	border-radius: 0.3rem 0.3rem 0 0;
+}
+.box .con{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0 0.24rem;
+	padding-bottom: 0.2rem;
+}
+.box .con .left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box .con .left .top{
+    font-size: 0.36rem;
+    font-weight: 600;
+}
+.box .con .left .center{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0.3rem 0;
+}
+.box .con .left .center .jian{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 50%;
+	color: #fe0000;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.box .con .left .center p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.box .con .left .center .jia{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 50%;
+	color: #fe0000;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.box .con .left .bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.box .con .left .bottom h5{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.box .con .left .bottom .money{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.box .con .left .bottom  .money h4{
+    font-size: 0.36rem;
+    color: #fff;
+    margin-right: 0.05rem;
+}
+.box .con .left .bottom p{
+    font-size: 0.24rem;
+    color: #fff;
+}
+.box .con .right{
+	width: 2rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: #fff;
+	color: #fe0000;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.6rem;
+}
+
+

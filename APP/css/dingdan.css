@@ -1,0 +1,196 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-13 15:24:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 16:36:49
+*/
+header{
+	width:100%;
+	height: 0.9rem;
+	background-color: #fe0000; 
+}
+header h2{
+	float: left;
+	font-size: 0.4rem;
+	color: #fff;
+	line-height: 0.9rem;
+	margin-left: 3.3rem;
+}
+header img{
+	width: 0.5rem;
+	height: 0.5rem;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.2rem;
+}
+
+
+.shangjia{
+	margin-top: 0.3rem;
+}
+.shangjia h2{
+	font-size: 0.3rem;
+	color: #370404;
+	text-align: center;
+}
+.shangjia h3{
+	font-size: 0.3rem;
+	color: #fe0000;
+	opacity: 0.75;
+	text-align: center;
+}
+.shangjia .con{
+	overflow-x: hidden;
+}
+.shangjia .con ul li{
+	float: left;
+	width: 2rem;
+	height: 3rem;
+	background: #fff;
+	box-shadow: 0.01rem 0.05rem 0.1rem 0.05rem rgba(255, 0, 0, 0.1);
+	margin: 0.15rem 0.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shangjia .con ul li:nth-child(2){
+	margin-left: 0;
+}
+.shangjia .con ul li:nth-child(3){
+	margin-left: 0;
+	margin-right: 0;
+}
+.shangjia .con ul li img{
+	width: 1.6rem;
+	height: 1.6rem;
+	border-radius: 0.2rem;
+	margin-top: 0.24rem;
+}
+.shangjia .con ul li h4{
+	font-size: 0.24rem;
+	font-weight: 600;
+	margin-top: 0.2rem;
+}
+.shangjia .con ul li p{
+	font-size: 0.18rem;
+	margin-top: 0.1rem;
+}
+
+
+
+.dingdan{
+	margin-top: 0.5rem;
+}
+.dingdan h2{
+	font-size: 0.3rem;
+	color: #370404;
+	text-align: center;
+}
+.dingdan h3{
+	font-size: 0.3rem;
+	color: #fe0000;
+	opacity: 0.75;
+	text-align: center;
+}
+.dingdan .con ul li{
+	float: left;
+	width: 7rem;
+	height: 1.6rem;
+	background: #fff;
+	box-shadow: 0 0.07rem 0.05rem 0.05rem rgba(255, 0, 0, 0.1);
+	margin: 0.15rem 0.25rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.dingdan .con ul li img{
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 0.2rem;
+}
+.dingdan .con ul li .word{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.2rem;
+}
+.dingdan .con ul li h4{
+	font-size: 0.28rem;
+}
+.dingdan .con ul li p1{
+	margin-top: 0.2rem;
+	font-size: 0.22rem;
+	color: #fe0000;
+	font-weight: 900;
+}
+.dingdan .con ul li p2{
+	font-size: 0.22rem;
+	color: #fe0000;
+	font-weight: 900;
+}
+.dingdan .con ul li .right{
+	margin-left: 3rem;
+}
+.dingdan .con ul li .right .rec{
+	width: 1.4rem;
+	height: 0.4rem;
+	background: #fff;
+	font-size: 0.18rem;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 0.2rem;
+	border: 0.022rem solid #fe0000;
+}
+.dingdan .con ul li .right .zailai{
+	width: 1.4rem;
+	height: 0.4rem;
+	background: #fff;
+	font-size: 0.18rem;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 0.2rem;
+	border: 0.022rem solid #fe0000;
+	margin-top: 0.2rem;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 0.9rem;
+	border-radius: 0.1rem 0.1rem 0 0;
+	box-shadow:0 -0.1rem 0.1rem 0.05rem rgba(254, 1, 1, 0.2); 
+	background: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .box{
+	background: #fff;
+	width: 0.7rem;
+	height: 0.9rem;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .iconfont{
+	font-size: 0.4rem;
+	color: #515151;
+}
+footer .icon-dingdan2{
+	color: #ef0000;
+}
+footer p{
+	font-size: 0.22rem;
+	color: #000;
+	margin-top: -0.2rem;
+}
+
+

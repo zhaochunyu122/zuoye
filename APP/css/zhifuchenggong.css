@@ -1,0 +1,170 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 11:21:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 14:08:11
+*/
+.container{
+	width: 100%;
+	padding: 0 0.24rem;
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fe0000;
+}
+header h2{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.9rem;
+	margin-left: 2.3rem;
+}
+header i{
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	float: left;
+}
+
+
+
+.jiedan{
+	width: 93%;
+	padding: 0.24em;
+	margin: 0.24rem;
+	display: flex;
+	flex-direction: row;
+	border-radius: 0.15rem; 
+	box-shadow: 0 0.1rem 0.05rem 0.03rem rgba(255, 0, 0, 0.1);
+}
+.jiedan img{
+	width: 1.45rem;
+	height: 1.45rem;
+	border-radius: 0.15rem;
+}
+.jiedan .right{
+	display: flex;
+	flex-direction: column; 
+	margin-left: 0.7rem;
+}
+.jiedan .right .money{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin-top: 0.2rem;
+}
+.jiedan .right .money h2{
+	font-size: 0.36rem;
+	color: #fe0000;
+}
+.jiedan .right .money h3{
+	font-size: 0.24rem;
+	color: #fe0000;
+}
+.jiedan .right h4{
+	font-size: 0.3rem;
+	color: #fe0000;
+	margin-top: 0.2rem;
+}
+
+
+
+.xinxi{
+	width: 93%;
+	height: 1.8rem;
+	padding: 0.24rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.15rem; 
+	box-shadow: 0 0.1rem 0.05rem 0.03rem rgba(255, 0, 0, 0.1);
+}
+.xinxi h5{
+	font-size: 0.24rem;
+}
+.xinxi p{
+	font-size: 0.18rem;
+}
+
+
+
+.box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0.5rem;
+}
+.box .box1{
+	width: 1.5rem;
+	height: 0.5rem;
+	background: #fe0000;
+	border-radius: 0.25rem;
+	color: #fff;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+.box .box2{
+	width: 1.5rem;
+	height: 0.5rem;
+	background: #fe0000;
+	border-radius: 0.25rem;
+	color: #fff;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.5rem;
+}
+
+
+
+.rec{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.4rem;
+	margin-bottom: 1rem;
+}
+.rec h3{
+	font-size: 0.36rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.rec ul li{
+	float: left;
+	width: 3rem;
+	height: 2.8rem;
+	box-shadow: 0 -0.1rem 0.1rem 0.03rem rgba(255, 0, 0, 0.1);
+	border-radius: 0.2rem;
+	margin-left: 0.5rem;
+	margin-bottom: 0.3rem;
+	display: flex;
+	flex-direction: column;
+}
+.rec ul li img{
+	width: 3rem;
+	height: 1.7rem;
+	border-radius: 0.2rem 0.2rem 0 0;
+}
+.rec ul li h4{
+	float: left;
+	font-size: 0.36rem;
+}
+.rec ul li p{
+	float: left;
+	font-size: 0.18rem;
+	color: #696969;
+	margin-top: 0.1rem;
+}
+.rec ul li .money h2{
+	float: left;
+	font-size: 0.48rem;
+	color: #fe0000;
+	margin-left: 0.7rem;
+}
+.rec ul li .money p{
+	float: left;
+	font-size: 0.24rem;
+	color: #fe0000;
+	margin-top: 0.2rem;
+	margin-left: 0.15rem;
+}

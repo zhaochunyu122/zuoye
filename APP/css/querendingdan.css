@@ -1,0 +1,301 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-13 18:19:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 18:23:04
+*/
+body{
+	background-image: url('../img/querendingdan/background.jpg');
+    background-size: cover;
+}
+.container{
+	width: 100%;
+	padding: 0 0.24rem;
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+}
+header h2{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.9rem;
+	margin-left: 2.3rem;
+}
+header i{
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 0.9rem;
+	float: left;
+}
+
+
+
+nav{
+	display: flex;
+	flex-direction: column;
+}
+nav p1{
+	font-size: 0.26rem;
+	color: #fff;
+}
+nav h4{
+	font-size: 0.3rem;
+	color: #fff;
+}
+nav p2{
+	font-size: 0.26rem;
+	color: #fff;
+}
+nav .con{
+	width: 100%;
+	background:  #fff;
+	border-radius: 0.15rem;
+	padding: 0 0.2rem;
+	margin-top: 0.2rem;
+}
+nav .con .top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 0.01rem dotted #000;
+	padding: 0.1rem 0;
+}
+nav .con h4{
+     font-size: 0.3rem;
+     color: #000;
+}
+nav .con  p{
+     font-size: 0.24rem;
+     color: #fe0000;
+}
+nav .con .top .left{
+	display: flex;
+	flex-direction: column;
+
+}
+nav .con .top .right{
+	font-size: 0.18rem;
+	color: #fe0000;
+}
+nav .con .bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.1rem 0.3rem;
+}
+section{
+	padding: 0.2rem 0.24rem;
+	background: #fff;
+	margin-top: 0.35rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.05rem 0.05rem 0.06rem rgba(255, 0, 0, 0.1);
+}
+section .top{
+	font-size: 0.36rem;
+    border-bottom: 0.01rem dotted #000;
+    padding-bottom: 0.1rem;
+}
+section ul li{
+	width: 100%;
+	height: 1.1rem;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.35rem;
+	margin-top: 0.2rem;
+}
+section ul li img{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 0.1rem;
+}
+section ul li h5{
+	font-size: 0.24rem;
+}
+section ul li .cheng{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #fe0000;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+section ul li p{
+	font-size: 0.24rem;
+}
+section ul li h4{
+	font-size: 0.26rem;
+	margin-left: 1.8rem;
+	color: #fe0000;
+}
+section ul li h6{
+	font-size: 0.18rem;
+	margin-left: -0.3rem;
+}
+section .hongbao{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.01rem dotted #000;
+	border-top: 0.01rem dotted #000;
+	padding: 0.2rem 0;
+}
+section .hongbao h4{
+	font-size: 0.24rem;
+	font-weight: 600;
+}
+section .hongbao p{
+	font-size: 0.24rem;
+	font-weight: 400;
+}
+section .xiaoji{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.2rem 0;
+}
+section .xiaoji h4{
+	font-size: 0.24rem;
+	font-weight: 600;
+}
+section .xiaoji h5{
+	font-size: 0.30rem;
+	font-weight: 600;
+	color: #fe0000;
+	margin-left: 5rem;
+}
+section .xiaoji p{
+	font-size: 0.24rem;
+	font-weight: 400;
+}
+
+.box{
+	padding: 0 0.24rem;
+	background: #fff;
+	margin-top: 0.35rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.05rem 0.05rem 0.06rem rgba(255, 0, 0, 0.1);
+	margin-bottom: 1.2rem;
+}
+    
+.box .box1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.2rem 0;
+	border-bottom: 0.01rem dotted #000;
+}
+
+.box h4{
+	font-size: 0.24rem;
+	font-weight: 600;
+}
+.box p{
+	font-size: 0.24rem;
+	font-weight: 400;
+}
+.box .box2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.2rem 0;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 0.9rem;
+	background: #fff;
+	box-shadow: 0 -0.05rem 0.05rem 0.06rem rgba(255, 0, 0, 0.1);
+    margin-top: 0.3rem;
+    padding: 0 0.6rem;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer h4{
+	font-size: 0.3rem;
+}
+footer h5{
+	font-size: 0.36rem;
+	color: #fe0000;
+}
+footer h6{
+	font-size: 0.18rem;
+}
+footer .money{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+footer .zhifu{
+	color: #fff;
+	font-size: 0.24rem;
+	width: 1.4rem;
+	height: 0.4rem;
+	border-radius: 0.2rem;
+	background: #fe0000;
+	text-align: center;
+}
+
+
+
+section1{
+	padding: 0.24rem;
+	width: 94%;
+	background: #fff;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.05rem 0.05rem 0.05rem rgba(255, 0, 0, 0.1);
+	margin-top: 0.6rem;
+	position: fixed;
+	top:30%;
+	left: 0.24rem;
+	display: none;
+}
+section1 .top{
+	font-size: 0.36rem;
+	text-align: center;
+	font-weight: 800;
+	padding-bottom: 0.2rem;
+	border-bottom: 0.01rem dotted #000;
+}
+section1 .bottom a{
+	color: #000;
+}
+section1 .bottom ul{
+	display: flex;
+	flex-direction: column;
+}
+section1 .bottom ul li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.24rem;
+	border-bottom: 0.01rem dotted #000;
+}
+section1 .bottom ul li:nth-child(5){
+	border-bottom: none;
+}
+section1 .bottom ul li img{
+	width: 0.95rem;
+	height: 0.95rem;
+}
+section1 .bottom ul li p{
+	font-size: 0.24rem;
+	margin-left: 0.3rem;
+}

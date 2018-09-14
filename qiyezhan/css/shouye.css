@@ -9,7 +9,7 @@ header{
 	z-index: 99;
 	width: 100%;
     height: 60px;
-    background: #fff;
+    background-color: transparent;
     position: fixed;
     top: 0;
     left: 0;
@@ -90,56 +90,28 @@ header .nav ul li :nth-child(4) :hover .xialacaidan{
 
 
 /* 轮播图开始 */
-.banner{
+.swiper-container{
 	width: 100%;
 	height: auto;
-	position: relative;
 }
-.banner .pic{
+.swiper-container .swiper-wrapper{
 	width: 100%;
 	height: 100%;
-	display: flex;
-	padding-top: 56%;
-	position: relative;
 }
-.banner .pic img{
+.swiper-container .swiper-wrapper img{
 	width: 100%;
 	height: auto;
-	position: absolute;
-	top:0;
-	left:100%;
 }
-.banner .dot{
-	display: flex;
-	flex-direction: row;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	cursor: pointer;
+.swiper-button-prev{
+	 display: none;
+ }
+.swiper-container:hover .swiper-button-prev{
+	display: block;
 }
-.banner .dot i{
-	font-size: 24px;
-	color: #8c8c8c;
-}
-.banner .dot .active{
-	color:#a6e1ec;
-}
-.banner .fanye {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	position: absolute;
-	bottom: 45%;
-	left: 0;
-}
-.banner .fanye i{
-	font-size: 40px;
-	color: #8c8c8c;
+.swiper-button-next{
 	display: none;
-	cursor: pointer;
 }
-.banner:hover .fanye i{
+.swiper-container:hover .swiper-button-next{
 	display: block;
 }
 /* 轮播图结束 */

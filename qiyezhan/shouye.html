@@ -7,13 +7,15 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/zong.css">
 	<link rel="stylesheet" href="css/shouye.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
 	<script src="js/animate.js"></script>
-	<script src="js/shouye.js"></script>
+	<script src="js/swiper.min.js"></script>
+    <script src="js/shouye.js"></script>
 
 </head>
 <body>
 
-        <!-- 顶部开始 -->
+<!-- 顶部开始 -->
 	<header>
 	  <div class="box">
 		<a href="shouye.html"><img src="img/shouye/logo.png" alt=""></a>
@@ -43,22 +45,42 @@
 
 
 <!-- 轮播图开始 -->
-	<div class="banner">
-	  <div class="pic">
-	  	<img src="img/shouye/banner1.jpg" alt="">
-		<img src="img/shouye/banner2.jpg" alt="">
-		<img src="img/shouye/banner3.jpg" alt="">
-	  </div>
-	  <div class="dot">
-	  	<i class="iconfont icon-lunbodian"></i>
-	  	<i class="iconfont icon-lunbodian"></i>
-	  	<i class="iconfont icon-lunbodian"></i>
-	  </div>
-	  <div class="fanye">
-	  	<i class="iconfont icon-fanyepx1"></i>
-	  	<i class="iconfont icon-fanyepx"></i>
-	  </div>
-	</div>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/shouye/banner1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/shouye/banner2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/shouye/banner3.jpg" alt=""></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+      
+  </div>
+
+
+
+
+
+
+	<!--<div class="banner">-->
+	  <!--<div class="pic">-->
+	  	<!--<img src="img/shouye/banner1.jpg" alt="">-->
+		<!--<img src="img/shouye/banner2.jpg" alt="">-->
+		<!--<img src="img/shouye/banner3.jpg" alt="">-->
+	  <!--</div>-->
+	  <!--<div class="dot">-->
+	  	<!--<i class="iconfont icon-lunbodian"></i>-->
+	  	<!--<i class="iconfont icon-lunbodian"></i>-->
+	  	<!--<i class="iconfont icon-lunbodian"></i>-->
+	  <!--</div>-->
+	  <!--<div class="fanye">-->
+	  	<!--<i class="iconfont icon-fanyepx1"></i>-->
+	  	<!--<i class="iconfont icon-fanyepx"></i>-->
+	  <!--</div>-->
+	<!--</div>-->
 <!-- 轮播图结束 -->
 
 
@@ -375,5 +397,33 @@
        </div>
      </footer>
 <!-- 底部结束 -->
+
+
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    })
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay:true,//等同于以下设置
+//		autoplay: {
+//		 delay: 1000,
+//		 stopOnLastSlide: false,
+//		 disableOnInteraction: true,
+//		 },
+    });
+</script>
 </body>
 </html>

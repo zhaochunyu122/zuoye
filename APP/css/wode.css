@@ -1,0 +1,128 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 14:16:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 16:31:06
+*/
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fe0000;
+	padding: 0 0.24rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 999;
+}
+header h2{
+	font-size: 0.36rem;
+	color: #fff;
+}
+header .iconfont{
+	font-size: 0.42rem;
+    color: #fff;
+}
+header a{
+	margin-bottom: 0.4rem;
+}
+
+
+
+.touxiang{
+	width: 100%;
+	height: 3rem;
+	background: #fe0000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.9rem;
+}
+.touxiang img{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.touxiang h4{
+	font-size: 0.28rem;
+	color: #fff;
+}
+.touxiang p{
+	font-size: 0.18rem;
+	color: #fff;
+}
+
+
+
+.con ul{
+	width: 100%;
+	padding: 0.24rem 0.24rem;
+}
+.con ul li{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	box-shadow: 0 0.05rem 0.05rem 0.05rem rgba(255, 0, 0, 0.1);
+	margin-top: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.3rem;
+}
+.con ul li img{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+}
+.con ul li h5{
+	font-size: 0.24rem;
+	margin-right:4rem;
+}
+.con ul li p{
+	font-size: 0.24rem;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	box-shadow:0 -0.1rem 0.1rem 0.05rem rgba(254, 1, 1, 0.2); 
+	background: #fff;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .box{
+	background: #fff;
+	width: 0.7rem;
+	height: 0.9rem;
+	display: flex;
+	flex-wrap:wrap; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .iconfont{
+	font-size: 0.4rem;
+	color: #515151;
+}
+footer .icon-wode-xuanzhong{
+	color: #ef0000;
+}
+footer p{
+	font-size: 0.22rem;
+	color: #000;
+	margin-top: -0.2rem;
+}

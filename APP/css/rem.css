@@ -1,0 +1,37 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 12:28:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-08 18:51:08
+*/
+@media screen and (min-width:360px){
+	html{
+	     font-size:calc(360/750*100px);
+	}
+	}
+@media screen and (min-width:375px){
+	html{
+	     font-size:calc(375/750*100px);
+	}
+	}
+@media screen and (min-width:412px){
+	html{
+	     font-size:calc(412/750*100px);
+	}
+	}
+	@media screen and (min-width:750px){
+	html{
+	     font-size:calc(750/750*100px);
+	}
+	}
+	
+@media screen and (min-width:768px){
+	html{
+	     font-size:calc(768/750*100px);
+	}
+	}
+	@media screen and (min-width:1024px){
+	html{
+	     font-size:calc(1024/750*100px);
+	}
+	}

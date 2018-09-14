@@ -1,0 +1,382 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 09:05:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 10:37:44
+*/
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+	background: #fe0000;
+	padding: 0 0.24rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top:0;
+	left: 0;
+}
+header .iconfont{
+	font-size: 0.42rem;
+    color: #fff;
+}
+header a{
+	margin-bottom: 0.4rem;
+}
+.introduce{
+	width: 100%;
+	height: 2.2rem;
+	background: #fe0000;
+	padding: 0 0.45rem;
+	position: fixed;
+	top:0.9rem;
+	left: 0;
+}
+.introduce img{
+	float: left;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 0.15rem;
+	margin-right: 0.2rem;
+}
+.introduce .box{
+	width: 4.5rem;
+	height: 100%;
+	background: #fe0000;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap; 
+}
+.introduce .box h3{
+	font-size: 0.4rem;
+	font-weight: 900;
+	border-bottom:  0.03rem dotted #8d8c8c;
+}
+.introduce .box1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap; 
+}
+.introduce .box h6{
+	font-size: 0.28rem;
+	color: yellow;
+	font-weight: 900;
+}
+.introduce .box p1{
+	font-size: 0.24rem;
+	margin-left: 0.2rem;
+	margin-top: 0.05rem;
+	font-weight: 900;
+}
+.introduce .box p2{
+	font-size: 0.24rem;
+	font-weight: 900;
+}
+.introduce .box p3{
+	font-size: 0.24rem;
+	font-weight: 900;
+}
+/* 内容开始 */
+main .top .box1{
+	width: 100%;
+	height: 0.55rem;
+	background: #fff;
+	margin-top: 3.1rem;
+	box-shadow: 0 0.1rem 0 0.1rem rgba(187, 187, 187, 0.1)
+}
+main .top .box1 p{
+	font-size: 0.26rem;
+	color: #f55197;
+	text-align: center;
+	line-height: 0.55rem;
+}
+main .top .box2{
+	width: 100%;
+	height: 0.65rem;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap; 
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 0.1rem;
+}
+main .top .box2 p{
+    font-size: 0.3rem;
+    font-weight: 900;
+    text-align: center;
+}
+main .top .box2 .order{
+	width: 1.5rem;
+	border-bottom: 0.03rem solid #fe0000;
+}
+main .list{
+	width:1.8rem;
+    height:3.2rem;
+    float: left;
+    overflow: scroll;
+}
+main .con  a .word {
+    color: #000;
+}
+main .list ul{
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap; 
+	align-items: center;
+}
+main .list ul li{
+	width: 100%;
+	height: 0.6rem;
+	background: #f4f4f4;
+}
+main .list ul li:nth-child(3){
+	background: #fe0000;
+	color: #fff;
+}
+main .list ul li p{
+	font-size: 0.28rem;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	line-height: 0.6rem;
+}
+main .list ul li:nth-child(3) p{
+	color: #fff;
+}
+main .con ul{
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap; 
+	align-items: center;
+	margin-top: 0.3rem;
+}
+main .con ul li{
+	width: 4.7rem;
+	height: 1.60rem;
+	box-shadow: 0 0.05rem 0.1rem 0.05rem rgba(255, 0, 0, 0.1);
+	margin-bottom: 0.25rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	position: relative;
+}
+main .con ul li img{
+	width: 1.6rem;
+	height: 1.6rem;
+}
+main .con ul li .center{
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;	
+	margin-left: 0.2rem;
+}
+main .con ul li .word{
+    display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+main .con ul li .word h5{
+	font-size: 0.3rem;
+	font-weight: 600;
+
+}
+main .con ul li .word p{
+	font-size: 0.24rem;
+}
+main .con ul li .money{
+	margin-top: 0.3rem;
+}
+main .con ul li .money p{
+    font-size: 0.26rem;
+    color: #fe0000;
+    font-weight: 600;  
+}
+main .con ul li .add{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fe0000;
+	border-radius: 50%;
+	position: absolute;
+	top:0.6rem;
+	left: 3.95rem;
+}
+main .con ul li .add p{
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.3rem;
+}
+/* 内容结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	box-shadow: 0 -0.01rem 0.5rem -0.1rem rgba(255, 0, 0, 10.1);
+	margin-top: 0.21rem;
+	position: relative;
+}
+footer .box1{
+	float: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;	
+	justify-content: center;
+	align-items: center;
+	margin-left: 1.2rem;
+	margin-top: 0.2rem;
+}
+footer .box1 p1{
+	font-size: 0.18rem;
+	color: #000;
+	text-align: center;
+}
+footer .box1 p2{
+	font-size: 0.16rem;
+	color: #000;
+	text-align: center;
+}
+footer .box2{
+	float: right;
+	width: 1.3rem;
+	height: 0.45rem;
+	background: #a0a0a0;
+	border-radius: 0.23rem;
+	margin-top: 0.3rem;
+	margin-right: 0.25rem;
+}
+footer .box2 p{
+	font-size: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.45rem;
+}
+footer .box3{
+	width: 0.8rem;
+	height: 0.8rem;
+	background: #fff;
+	border-radius: 50%;
+	border: 0.03rem solid #a0a0a0;
+	position: relative;
+	position: absolute;
+	top: -0.28rem;
+	left: 0.28rem;
+	padding-top: -0.15rem;
+}
+footer .box3 .iconfont{
+	display: block;
+	font-size:0.5rem;
+    /* position: absolute;
+    top: 0.1rem;
+    left: 0.1rem; */
+    color: #a0a0a0;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.boxz{
+	width: 6rem;
+	height: 6rem;
+	background: #fe0000;
+	border-radius: 0.3rem;
+	position: absolute;
+	top:25%;
+	left:10%;
+	box-shadow: 0 0 0 10rem rgba(255,255,255,0.6);
+	display: none;
+}
+.boxz img{
+	width: 100%;
+	height: 3.25rem;
+	border-radius: 0.3rem 0.3rem 0 0;
+}
+.boxz .con{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0 0.24rem;
+	padding-bottom: 0.2rem;
+}
+.boxz .con .left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.boxz .con .left .top{
+	font-size: 0.36rem;
+	font-weight: 600;
+}
+.boxz .con .left .center{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0.3rem 0;
+}
+.boxz .con .left .center .jian{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 50%;
+	color: #fe0000;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.boxz .con .left .center p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.boxz .con .left .center .jia{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+	border-radius: 50%;
+	color: #fe0000;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.boxz .con .left .bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.boxz .con .left .bottom h5{
+	font-size: 0.24rem;
+	color: #fff;
+}
+.boxz .con .left .bottom .money{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+.boxz .con .left .bottom  .money h4{
+	font-size: 0.36rem;
+	color: #fff;
+	margin-right: 0.05rem;
+}
+.boxz .con .left .bottom p{
+	font-size: 0.24rem;
+	color: #fff;
+}
+.boxz .con .right{
+	width: 2rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: #fff;
+	color: #fe0000;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.6rem;
+}

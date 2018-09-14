@@ -1,0 +1,102 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 16:41:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 18:00:09
+*/
+body{
+	background-image: url('../img/mimazhifu/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	width: 100%;
+	height: 0.9rem;
+	padding: 0 0.24rem;
+}
+header i{
+	float: left;
+	color: #fff;
+	font-size: 0.4rem;
+	line-height: 0.9rem;
+}
+
+
+
+nav{
+	padding: 0 0.24rem;
+    display: flex;
+    flex-direction: column;
+
+}
+nav .box{
+	width: 100%;
+	height: 1.25rem;
+	background: #fff;
+	margin-top: 0.4rem;
+	padding:0 0.35rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.05rem 0.05rem 0.05rem rgba(255, 0, 0, 0.1);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .box .money{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+nav h2{
+	font-size: 0.36rem;
+	color: #fff;
+}
+nav h3{
+	font-size: 0.3rem;
+}
+nav h4{
+	font-size: 0.36rem;
+	color: #fe0000;
+}
+nav p{
+	font-size: 0.24rem;
+	font-weight: 500;
+	color: #fe0000;
+}
+
+
+
+.ka{
+	width: 6rem;
+	height: 2rem;
+	margin: 0.75rem;
+}
+
+
+
+.yanzheng{
+	display: flex;
+	flex-direction: column;
+}
+.yanzheng p{
+     font-size: 0.3rem;
+     font-weight: 700;
+     text-align: center;
+}
+.yanzheng img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-left: 3.5rem;
+	margin-top: 0;
+	margin-top: 0.1rem;
+}
+
+
+
+.jianpan{
+	width: 100%;
+	height: 5.2rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
