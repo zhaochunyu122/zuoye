@@ -802,7 +802,7 @@ i{
 	flex-direction: row;
 	justify-content: space-between;
 }
-.flash .rush .time .num{
+.flash .rush .time span{
 	width:45px;
 	height:45px;
 	background-color: #605751;

@@ -24,6 +24,38 @@ header .box{
 	align-items: center;
 	padding: 20px;
 }
+header .box i{
+	cursor: pointer;
+}
+header .box p{
+	font-size: 24px;
+	position: absolute;
+	top:10px;
+	right: 20px;
+	display: none;
+	cursor: pointer;
+}
+header .box ul{
+	width: 100%;
+	position: absolute;
+	top:60px;
+	left:0;
+	background: #fff;
+	padding: 20px 30px;
+	display: none;
+}
+header .box ul li{
+	font-size: 16px;
+	width: 100%;
+	height: 50px;
+}
+header .box ul a{
+	color: #000;
+	text-decoration: none;
+}
+header .box ul li:hover{
+	color:#62a8ea ;
+}
 header img{
 	width: 150px;
 	height: 50px;
@@ -57,7 +89,7 @@ header .nav ul li a{
 header .nav ul li  a:hover{
 	color: #62a8ea;
 }
-header .xialacaidan {
+header .nav .xialacaidan {
 	width: 200px;
 	height: 100px;
 	margin: 0;
@@ -69,17 +101,17 @@ header .xialacaidan {
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 	background-color: #fff;
 }
-header .xialacaidan h2{
+header .nav .xialacaidan h2{
 	font-size: 14px;
 	text-align: center;
 
 }
-header .xialacaidan a{
+header .nav .xialacaidan a{
 	color: #000;
 	text-decoration: none;
 	margin-top: 10px;
 }
-header .xialacaidan a:hover{
+header .nav .xialacaidan a:hover{
 	color: #62a8ea;
 }
 header .nav ul li :nth-child(4) :hover .xialacaidan{
@@ -171,36 +203,34 @@ header .nav ul li :nth-child(4) :hover .xialacaidan{
 .hunli ul{
 	margin-top: 50px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
+	justify-content:center;
+	padding:0 40px;
 }
-.hunli ul li{   
-	display: flex;
-	flex-direction: column;
+.hunli ul li:nth-child(2){
+	margin-left: 20px;
 }
-
 .hunli ul li img{
 	width: 236px;
+	cursor: pointer;
 }
 .hunli ul li h5{
 	font-size:16px;
-	line-height: 46px;
-	height: 46px; 
+	line-height: 30px;
+	height: 30px;
 	color: #2a333c;
 }
 .hunli ul li p{
 	font-size: 14px;
 	height: 50px;
 	line-height: 24px;
-	margin-top: 10px;
 	overflow: hidden;
     text-align: left;
+	border-top: 1px solid #e1e1e1;
+	padding-top: 5px;
 }
-.hunli ul a{
-	text-decoration: none;
-}
-.hunli ul a:hover h5{
-    color:#62a8ea; 
+.hunli ul li:hover h5{
+    color:#62a8ea;
+	cursor: pointer;
 }
 /* 婚礼策划结束 */
 

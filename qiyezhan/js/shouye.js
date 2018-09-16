@@ -1,35 +1,27 @@
-window.onload=function () {
-    let header=document.querySelector("header");
-    let wh=window.innerHeight;
-
-
-
-
-
-    window.onscroll=function () {
-        let bh=document.body.scrollTop||document.documentElement.scrollTop;  //获取滚动的距离
-        // arr.forEach(function (value,index) {
-        //     if((wh+bh)>=value+300){
-        //         lis.forEach(function(element){
-        //             element.classList.remove("hot");
-        //         })
-        //         lis[index].classList.add("hot");
-        //         let imgs=floor[index].querySelectorAll("img");  //获取当前楼层的图片
-        //         imgs.forEach(function (e) {
-        //             e.src=e.getAttribute("imgsrc");
-        //         })
-        //     }
-        // })
-        if(bh>500) {
-            header.style.backgroundColor = "#fff";
-        }else{
-            header.style.backgroundColor = "transparent";
-        }
-    }
-
-}
-
-
-
-
-
+/**
+ * Created by Administrator on 2018/9/15.
+ */
+$(function () {
+    $(".icon-liebiao").click(function () {
+        $("header .box ul").slideDown("slow");
+        $(".icon-liebiao").slideUp("slow");
+        $("header .box p").slideDown("slow");
+    })
+    $("header .box p").click(function () {
+        $("header .box ul").slideUp("slow");
+        $(".icon-liebiao").slideDown("slow");
+        $("header .box p").slideUp("slow");
+    })
+    $(".hunli ul li").click(function () {
+        window.open("hunlixiangqing.html");
+    })
+    $(".huaxun ul li").click(function () {
+        window.open("huahuisheji.html");
+    })
+    $(".huaxun button").click(function () {
+        window.open("huahuisheji.html");
+    })
+    $(".huayi ul li").click(function () {
+        window.open("huadianxiangqing.html");
+    })
+})

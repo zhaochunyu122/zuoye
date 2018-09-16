@@ -146,6 +146,34 @@ let lis=document.querySelectorAll(".outer");
 
 
 
+    //小米闪购倒计时
+    let span=document.querySelectorAll(".flash .rush .time span");   //获取span标签
+    console.log(span);
+    setDate();
+    setInterval(setDate,1000);//创建时间函数，使时间变成动态的
+    function setDate() {
+        let arr=fn();
+        //arr与span一一对应
+        span.forEach((v,index)=>{
+            v.innerHTML=arr[index];
+        })
+    }
+    function fn() {
+        let arr=[];
+        let date = new Date();
+        let date1 = new Date(2018, 9, 1);
+        let time = (date1.getTime() - date.getTime()) / 1000;
+        let hour = Math.floor(time / (24*60 * 60));
+        arr.push(hour);
+        let minute = Math.floor(time % (24*60 * 60)/(60*60) );
+        arr.push(minute);
+        let second = Math.floor(time % (24 * 60 * 60) % (60 * 60) % 60);
+        arr.push(second);
+        return arr;
+    }
+
+
+//为你推荐
     let button1=document.querySelectorAll("button1");
     let miList1=document.querySelector(".list");
     let w1=parseInt(getComputedStyle(miList1,null).width)/2;

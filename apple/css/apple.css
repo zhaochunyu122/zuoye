@@ -1,0 +1,660 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-10 15:15:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 09:23:13
+*/
+header{
+	 width: 100%;
+    height: 44px;
+    background: #000;
+    padding-left: 158px;
+    padding-right: 158px;
+
+}
+header .list1{
+    width: 50px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+header .list1 .line{
+    width: 16px;
+    height: 1px;
+    background: #fff;
+    transition: all 0.3s;
+}
+header .list1:hover .line{
+   background: #999;
+}
+header .list1 .line1{
+    margin-bottom: 3px;
+}
+.active{
+    margin-bottom: 0;
+    transform: rotate(60deg);
+}
+.active1{
+    transform: rotate(-60deg);
+}
+header .liebiao{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header i{
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+    cursor: pointer;
+}
+header a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+}
+header a:hover{
+    color: #999;
+    text-decoration: none;
+}
+header .more{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top:44px;
+    left:0;
+    display: none;
+}
+header .more input{
+    background: #282828;
+    padding:10px 30px;
+    border: none;
+    color: #fff;
+    width: 96%;
+    height: 35px;
+    margin-left: 2%;
+    border-radius: 5px;
+    outline: none;
+    background-image: url("../img/sou-suo.png");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+header .more .xian{
+    width: 100%;
+    height: 1px;
+    background: #282828;
+    margin-top: 20px;
+}
+header .more ul{
+    padding:0 10%;
+}
+header .more ul li{
+    padding:15px 0;
+    border-bottom: 1px solid #282828;
+    color: #fff;
+}
+header .more ul li:nth-child(6){
+    border-bottom: none;
+}
+header .more ul li:hover{
+    color: #999;
+    cursor: pointer;
+}
+header .icon-gouwudai{
+    position: relative;
+}
+header .shop{
+    width: 300px;
+    height: 320px;
+    background: #fff;
+    position: absolute;
+    top:15px;
+    left:85%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0.2px rgba(0,0,0,0.1);
+    display: none;
+}
+header .shop .jian{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    top:-10px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+header .shop p{
+    color: #888;
+    text-align: center;
+    padding-top: 35px;
+}
+header .shop ul{
+    padding: 0 25px;
+}
+header .shop ul li{
+    padding:3px 0;
+
+    cursor: pointer;
+    border-top: 1px solid #e3e3e3;
+}
+header .shop ul li a{
+    color: #0070c9;
+    text-decoration: solid;
+}
+
+
+
+main .box{
+	display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+main .iphoneX{
+    width: 100%;
+    height: 580px;
+    background-image: url('../img/iphone_x_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    margin-bottom: 14px;
+}
+main .iPad{
+	width: 100%;
+    height: 580px;
+    background-image: url('../img/ipad_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    margin-bottom: 14px;
+}
+main .macbook{
+	width: 100%;
+    height: 580px;
+    background-image: url('../img/macbook_pro_performance_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #131218;
+    background-position: center bottom;
+}
+main h3{
+    padding-top:50px;
+    font-size: 56px; 
+    font-weight: 900;
+}
+main p{
+    font-size: 27px;
+    font-weight: 400;
+}
+main a{
+	color: #0070c9;
+	font-size: 21px;
+	font-weight: 400;
+}
+main a:nth-child(2){
+    margin-left: 26px;
+}
+main .macbook h3{
+	color: #fff;
+}
+main .macbook p{
+	color: #fff;
+}
+main .macbook a{
+	color: #fff;
+}
+
+
+
+section ul li{
+	width: 50%;
+	height: 580px;
+	border: 14px solid #fff;
+	border-bottom: none;
+	float: left;
+	display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+section ul li:nth-child(2n+1){
+	border-right: none;
+}
+section ul li:nth-child(5){
+	border-bottom: 14px solid #fff;
+}
+section ul li:nth-child(6){
+	border-bottom: 14px solid #fff;
+}
+section ul li:nth-child(6){
+	background-size: 219px 292px;
+}
+section ul li h4{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 52px;
+	text-align: center;
+}
+section ul li p{
+	font-size: 21px;
+	font-weight: 400;
+	margin-top: 4px;
+}
+section ul li a{
+	font-size: 17px;
+	font-weight: 400;
+}
+section ul li a:nth-child(2){
+	margin-left: 26px;
+}
+section ul li img{
+	width: 20px;
+	height: 20px;
+}
+section ul li.box1{
+	background-image: url('../img/shop_for_college_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box2{
+	background-image: url('../img/behind_the_mac_majid_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box3{
+	background-image: url('../img/iphone_x_a11_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box4{
+	background-image: url('../img/iphone_8_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 292px 391px;
+	background-color: #F9F0EB;
+}
+section ul li.box5{
+	background-image: url('../img/trade_up_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box6{
+	background-image: url('../img/three_rings_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: center bottom;
+	background-size: 283px 386px;
+	background-color:#000;
+}
+section ul li.box2 h4{
+    color: #fff;
+    padding-top: 390px;
+}
+section ul li.box2 .link a{
+	font-size: 16px;
+	color: #fff;
+}
+section ul li.box3 h4{
+    color: #fff;
+    padding-top: 350px;
+}
+section ul li.box3 p{
+	color: #fff;
+}
+section ul li.box3 .link a{
+	color: #fff;
+}
+section ul li.box4 .link a{
+	color: #0070c9;
+}
+section ul li.box5 p{
+	text-align: center;
+	margin: 5px auto;
+}
+section ul li.box6 h4{
+    color: #fff;
+}
+section ul li.box6 p{
+	text-align: center;
+	color: #fff;
+}
+
+
+
+/* 底部开始 */
+footer{
+    width: 100%;
+    /* height: 100px; */
+    background: #F2F2F2;
+    padding-top: 40px;
+}
+footer .content{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .content .box{
+    /* background: pink; */
+    width: 20%;
+    padding-right: 20px;
+}
+
+footer .content h3{
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+footer .content ul li a{
+    font-size: 11px;
+    font-weight: 400;
+    color: #555;
+}
+footer .content .bottom{
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+footer .more{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 34px 22px 0;
+
+}
+footer .more .method{
+    font-size: 11px;
+    color: #888;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 7px;
+}
+footer .more .method a{
+    color: #0070c9;
+}
+
+footer .copyright{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 5px 22px 0;
+    font-size: 11px;
+    font-weight: 400;
+    color: #888;
+    position: relative;
+
+}
+footer .copyright .left{
+    float: left;
+    margin: 0 30px 0 0;
+}
+footer .copyright .center{
+    color: #d6d6d6;
+}
+footer .copyright .center a{
+    color: #555;
+    padding: 0 10px;
+}
+footer .copyright .china{
+    float: right;
+    position: absolute;
+    right: 22px;
+    bottom: 0;
+    display: flex;
+}
+footer .copyright .china a{
+    display: block;
+    line-height: 16px;
+
+}
+footer p{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 5px 22px 20px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+}
+footer p a{
+    color: #999;
+}
+.footer2{
+    display: none;
+}
+/* 底部结束 */
+
+
+/* 小小屏底部开始 */
+.footer2{
+    width: 100%;
+    /* height: 100px; */
+    background: #F2F2F2;
+    padding: 0 10px;
+}
+.footer2 .add{
+    cursor: pointer;
+}
+.footer2 .content ul li{
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    /* padding: 10px 16px; */
+    /* display: flex;
+    justify-content: space-between; */
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    padding: 0;
+}
+.footer2 .content ul li .content-one{
+    width: 100%;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer2 .content ul li .content-one h3{
+    font-size: 16px;
+}
+.footer2 .content ul li .content-one p{
+    font-size: 18px;
+    line-height: 12px;
+    padding: 10px 16px;
+}
+.hot{
+    transform: rotate(45deg);
+}
+.footer2 .content ul li .content-two{
+    padding: 0 30px;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+}
+.footer2 .content ul li .content-two h3{
+    font-size: 14px;
+}
+.footer2 .content ul li .content-down{
+    display: none;
+
+}
+.footer2 .more{
+    width: 100%;
+    padding: 17px 16px 0;
+    font-size: 11px;
+    font-weight: 400;
+    color: #333;
+}
+.footer2 .more .method{
+    font-size: 11px;
+    color: #888;
+    padding-bottom: 8px;
+    margin-bottom: 7px;
+}
+.footer2 .more .method a{
+    color: #0070c9;
+}
+
+.footer2 .copyright{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 5px 16px 0;
+    font-size: 11px;
+    font-weight: 400;
+    color: #888;
+}
+.footer2 .copyright .left{
+    margin: 0 30px 0 0;
+    margin-top: 15px;
+}
+.footer2 .copyright .center{
+    margin-top: 5px;
+    color: #d6d6d6;
+}
+.footer2 .copyright .center a{
+    color: #555;
+    padding: 0 10px;
+
+}
+.footer2 .copyright .center a:nth-child(1){
+    padding-left: 0;
+}
+.footer2 .copyright .china{
+    display: flex;
+}
+.footer2 .copyright .china a{
+    display: block;
+    line-height: 16px;
+    color: #555;
+
+}
+.footer2 p.bottom{
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 5px 16px 20px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #999;
+}
+.footer2 p.bottom a{
+    color: #999;
+}
+/* 小小屏底部结束 */
+
+
+
+@media  screen and (max-width: 1200px) {
+    header .shop{
+        left: 80%;
+    }
+    main h3{
+    	font-size: 44px;
+    }
+    main p{
+    	font-size: 24px;
+    }
+    main a{
+    	font-size: 17px;
+    }
+    mian .box{
+    	background-size: 736px 337px;
+    }
+
+
+    section ul li{
+    	height: 490px;
+    	background-size: 516px 490px;
+    }
+    section ul li:nth-child(4){
+	background-size: 229px 305px;
+    }
+    section ul li:nth-child(6){
+	background-size: 219px 292px;
+    }
+    section h4{
+    	font-size: 32px;
+    	margin-top: 42px;
+    }
+    section p{
+    	font-size: 19px;
+    }
+    section a{
+    	margin-left: 20px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    header {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header .shop{
+        left: 50%;
+    }
+
+    main h3 {
+        font-size: 32px;
+    }
+
+    main p {
+        font-size: 19px;
+    }
+
+    main a {
+        font-size: 17px;
+    }
+
+    main a:nth-child(2) {
+        margin-left: 20px;
+    }
+
+    main .iphoneX {
+        background-image: url('../img/iphone_x_small.jpg');
+    }
+
+    main .iPad {
+        background-image: url('../img/ipad_small.jpg');
+    }
+
+    main .macbook {
+        background-image: url('../img/macbook_pro_performance_small.jpg');
+    }
+
+    section ul li {
+        width: 100%;
+        height: 490px;
+        background-size: 736px 548px;
+    }
+
+    section ul li h4 {
+        font-size: 32px;
+        margin-top: 37px;
+    }
+
+    section ul li p {
+        font-size: 19px;
+        margin-top: 3px;
+    }
+
+    section ul li a {
+        margin-left: -8px;
+    }
+
+    /* 底部开始 */
+    footer {
+        display: none;
+    }
+
+    .footer2 {
+        display: block;
+    }
+}
+/* 底部结束 */
