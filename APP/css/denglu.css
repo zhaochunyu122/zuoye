@@ -96,8 +96,9 @@ body{
 	font-size: 0.3rem;
 	text-align: center;
 	line-height: 0.3rem;
-	margin-right: 2rem;
 	outline: none;
+	margin:0 auto;
+	margin-top: 0.5rem;
  }
 
 
