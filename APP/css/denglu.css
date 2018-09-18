@@ -41,6 +41,7 @@ body{
 .con form{
 	display: flex;
 	flex-direction: column;
+	position: relative;
 }
 .con form .name{
 	background-image: url('../img/denglu/wode.png');
@@ -86,16 +87,17 @@ body{
 
 
 
-.btn-success{
+
+button{
     width: 1.8rem;
-	height: 0.55rem;
+	height: 0.6rem;
 	background-color:  #535353;
-	border-color: #535353;
+	border:none;
 	border-radius: 0.28rem;
 	color: #fff;
 	font-size: 0.3rem;
 	text-align: center;
-	line-height: 0.3rem;
+	line-height: 0.4rem;
 	outline: none;
 	margin:0 auto;
 	margin-top: 0.5rem;

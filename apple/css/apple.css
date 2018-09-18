@@ -633,7 +633,9 @@ footer p a{
         height: 490px;
         background-size: 736px 548px;
     }
-
+    section ul li:nth-child(2n){
+        border-right: none;
+    }
     section ul li h4 {
         font-size: 32px;
         margin-top: 37px;
